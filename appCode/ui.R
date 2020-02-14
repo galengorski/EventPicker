@@ -1,7 +1,8 @@
 #===================================================================================#
 #-----------------------------------------------------------------------------------#
 # This is the ui for an event picking application developed for picking out events 
-# on a hydrograph and adjusting the events interactively
+# on a hydrograph and adjusting the events interactively. More information can be 
+# found at https://github.com/galengorski/EventPicker
 #-----------------------------------------------------------------------------------#
 # GG
 # 2/14/2020
@@ -43,7 +44,9 @@ fluidPage(
                        sidebarLayout(      
                          # Define the sidebar with one input
                          sidebarPanel(
-                           h5('Upload a time series with a daily frequency with a column labled "Date" whose format is mm/dd/yy'),
+                           h5('Upload a time series with a daily frequency with a column labled "Date" whose format is mm/dd/yy.'), 
+                              h5('For more information and demo files'),
+                           a(href="https://github.com/galengorski/EventPicker", "Click Here!"),
                            #Upload Time Series
                            fileInput("file1", "Upload Time Series",
                                      accept = c(
