@@ -1,7 +1,8 @@
 # EventPicker
  Tools for identifying storm events in hydrographs
  
-Galen Gorski/
+Galen Gorski
+
 ggorski@ucsc.edu
 
 2/14/2020
