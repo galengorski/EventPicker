@@ -37,7 +37,7 @@ fluidPage(
   #select theme
   theme = shinytheme("cerulean"),
   # Give the page a title
-  titlePanel("Event picker"),
+  titlePanel("EventPicker"),
   tabsetPanel(type = "tabs",
               tabPanel("Upload hydrograph and pick events",
                        # Generate a row with a sidebar

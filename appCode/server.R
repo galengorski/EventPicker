@@ -50,7 +50,7 @@ function(input,output,session){
     validate(
       need(input$file1, '')
     )
-    selectInput("plot_y", "Choose x Variable:", 
+    selectInput("plot_y", "Choose y Variable:", 
                 choices=colnames(myTimeSeries()), selected = colnames(myTimeSeries())[2])
   })
   
